@@ -1,0 +1,4 @@
+packages:
+  - "qiankun/*"
+  - "qiankun2/*"
+  - "mf/*"
