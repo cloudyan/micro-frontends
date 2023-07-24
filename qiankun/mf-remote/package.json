@@ -1,5 +1,5 @@
 {
-  "name": "@example/mf-remote",
+  "name": "@example/qiankun-mf-remote",
   "private": true,
   "scripts": {
     "build": "max build",
@@ -11,7 +11,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@umijs/max": "*",
+    "@umijs/max": "4",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },

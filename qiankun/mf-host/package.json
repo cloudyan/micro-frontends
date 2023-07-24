@@ -1,5 +1,5 @@
 {
-  "name": "@example/mf-host",
+  "name": "@example/qiankun-mf-host",
   "private": true,
   "scripts": {
     "build": "max build",
@@ -18,7 +18,7 @@
     "start-remote-prod": "pnpm run --dir ../mf-remote preview"
   },
   "dependencies": {
-    "@umijs/max": "*",
+    "@umijs/max": "4",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
