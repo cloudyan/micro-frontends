@@ -4,11 +4,14 @@
   "workspaces": [
     "qiankun/*",
     "qiankun2/*",
+    "qiankun3/*",
     "mf/*"
   ],
   "scripts": {
     "qiankun:dev": "lerna run dev --scope='@example/qiankun-*'",
     "qiankun2:dev": "lerna run start --scope='@example/qiankun2-*'",
+    "qiankun3:dev": "lerna run dev --scope='@example/qiankun3-*'",
+    "qiankun3:dev1": "pnpm -r --parallel --filter=./qiankun3/* run dev",
     "mf:dev": "lerna run dev --scope='@example/mf-*'"
   },
   "devDependencies": {
